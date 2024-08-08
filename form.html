@@ -12,7 +12,11 @@
             const formData = new FormData(event.target);
 
             const data = Object.fromEntries(formData);
-            console.log(data);  
+            console.log(data);
+
+            function changeLocation() {
+
+            }
         }
     </script>
 </head>
@@ -50,18 +54,9 @@
                 <label for="other">other</label>
                 <input type="radio" id="male" name="gender">
             </div>
-
-
-
-
-
+            <button onclick="history.back()">Go Back</button>
         </form>
     </div>
-
-
-
-
-
 </body>
 
 </html>
